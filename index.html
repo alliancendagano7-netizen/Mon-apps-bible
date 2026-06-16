@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Apps Bible - Votre Compagnon Spirituel Quotidien</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2c3e50">
 </head>
 <body>
     <header>
         <div class="container">
             <h1>📖 Mon Apps Bible</h1>
-            <p>Votre chemin vers la Parole de Dieu - Matin et Soir</p>
+            <p>66 Livres | 500+ Versets | 150+ Sujets | 1000 Prières</p>
         </div>
     </header>
 
@@ -21,6 +23,7 @@
             <li><a href="#prieres">Prières</a></li>
             <li><a href="#sujet">Sujet du Jour</a></li>
             <li><a href="#bible">Lire la Bible</a></li>
+            <li><a href="#recherche">Recherche</a></li>
         </ul>
     </nav>
 
@@ -29,22 +32,22 @@
         <section id="accueil" class="section">
             <div class="container">
                 <h2>✨ Bienvenue sur Mon Apps Bible</h2>
-                <p>Chaque matin et soir, cette application vous offre:</p>
+                <p style="text-align: center; font-size: 1.1em; margin-bottom: 30px;">Votre compagnon spirituel quotidien pour grandir dans la foi</p>
                 <div class="welcome-grid">
                     <div class="card">
-                        <h3>📖 Versets du Jour</h3>
+                        <h3>📖 500+ Versets</h3>
                         <p>Un verset du matin et du soir pour nourrir votre âme et guider votre journée.</p>
                     </div>
                     <div class="card">
-                        <h3>🙏 Prières Guidées</h3>
-                        <p>Des prières du matin et du soir pour vous rapprocher de Dieu.</p>
+                        <h3>🙏 1000 Prières</h3>
+                        <p>Des prières guidées du matin et du soir pour vous rapprocher de Dieu.</p>
                     </div>
                     <div class="card">
-                        <h3>📚 Sujets Bibliques</h3>
-                        <p>Une méditation quotidienne basée sur le jour de la semaine.</p>
+                        <h3>📚 150+ Sujets</h3>
+                        <p>Une méditation quotidienne pour l'approfondissement chrétien.</p>
                     </div>
                     <div class="card">
-                        <h3>📕 66 Livres Bibliques</h3>
+                        <h3>📕 66 Livres</h3>
                         <p>Accès complet à l'Ancien et Nouveau Testament.</p>
                     </div>
                 </div>
@@ -76,6 +79,18 @@
             </div>
         </section>
 
+        <!-- Section Recherche -->
+        <section id="recherche" class="section">
+            <div class="container">
+                <h2>🔍 Recherche de Versets</h2>
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Recherchez un verset (ex: Jean 3:16)..." class="search-input">
+                    <button id="searchBtn" class="search-btn">Rechercher</button>
+                </div>
+                <div id="searchResults" class="search-results"></div>
+            </div>
+        </section>
+
         <!-- Section Lecture de la Bible -->
         <section id="bible" class="section">
             <div class="container">
@@ -91,13 +106,51 @@
                 </div>
             </div>
         </section>
+
+        <!-- Section Statistiques -->
+        <section id="stats" class="section">
+            <div class="container">
+                <h2>📊 Statistiques de l'Application</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3>66</h3>
+                        <p>Livres Bibliques</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>500+</h3>
+                        <p>Versets du Matin</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>500+</h3>
+                        <p>Versets du Soir</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>150+</h3>
+                        <p>Sujets Bibliques</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>1000+</h3>
+                        <p>Prières Guidées</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>∞</h3>
+                        <p>Sagesse Éternelle</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
         <div class="container">
             <p>&copy; 2024 Mon Apps Bible. Créé avec ❤️ pour la communauté chrétienne.</p>
             <p>"La Parole de Dieu est vivante et efficace" - Hébreux 4:12</p>
-            <p><strong>66 Livres | Versets Quotidiens | Prières | Sujets Bibliques</strong></p>
+            <p><strong>66 Livres | 500+ Versets | 150+ Sujets | 1000 Prières</strong></p>
+            <div class="social-links">
+                <a href="#" title="Email">📧</a>
+                <a href="#" title="Partager">🔗</a>
+                <a href="#" title="À propos">ℹ️</a>
+            </div>
         </div>
     </footer>
 

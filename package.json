@@ -1,0 +1,14 @@
+{
+  "name": "mon-apps-bible",
+  "version": "1.0.0",
+  "description": "Application Biblique Complète avec 66 Livres, 500+ Versets, 150+ Sujets, 1000 Prières",
+  "main": "index.html",
+  "type": "module",
+  "keywords": ["bible", "christian", "app", "prayers", "verses", "spiritual"],
+  "author": "Alliance Tech",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alliancendagano7-netizen/Mon-apps-bible"
+  }
+}
