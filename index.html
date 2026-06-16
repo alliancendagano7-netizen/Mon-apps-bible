@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Apps Bible - Votre Compagnon Spirituel Quotidien</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>📖 Mon Apps Bible</h1>
+            <p>Votre chemin vers la Parole de Dieu - Matin et Soir</p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#versets">Versets du Jour</a></li>
+            <li><a href="#prieres">Prières</a></li>
+            <li><a href="#sujet">Sujet du Jour</a></li>
+            <li><a href="#bible">Lire la Bible</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Section Accueil -->
+        <section id="accueil" class="section">
+            <div class="container">
+                <h2>✨ Bienvenue sur Mon Apps Bible</h2>
+                <p>Chaque matin et soir, cette application vous offre:</p>
+                <div class="welcome-grid">
+                    <div class="card">
+                        <h3>📖 Versets du Jour</h3>
+                        <p>Un verset du matin et du soir pour nourrir votre âme et guider votre journée.</p>
+                    </div>
+                    <div class="card">
+                        <h3>🙏 Prières Guidées</h3>
+                        <p>Des prières du matin et du soir pour vous rapprocher de Dieu.</p>
+                    </div>
+                    <div class="card">
+                        <h3>📚 Sujets Bibliques</h3>
+                        <p>Une méditation quotidienne basée sur le jour de la semaine.</p>
+                    </div>
+                    <div class="card">
+                        <h3>📕 66 Livres Bibliques</h3>
+                        <p>Accès complet à l'Ancien et Nouveau Testament.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Versets du Jour -->
+        <section id="versets" class="section">
+            <div class="container">
+                <h2>📖 Versets du Jour</h2>
+                <div id="versetMatin"></div>
+                <div id="versetSoir"></div>
+            </div>
+        </section>
+
+        <!-- Section Prières -->
+        <section id="prieres" class="section">
+            <div class="container">
+                <h2>🙏 Prières du Matin et du Soir</h2>
+                <div id="priereMatin"></div>
+                <div id="priereSoir"></div>
+            </div>
+        </section>
+
+        <!-- Section Sujet du Jour -->
+        <section id="sujet" class="section">
+            <div class="container">
+                <div id="sujetDuJour"></div>
+            </div>
+        </section>
+
+        <!-- Section Lecture de la Bible -->
+        <section id="bible" class="section">
+            <div class="container">
+                <h2>📕 Lire la Bible Complète (66 Livres)</h2>
+                <div class="bible-reader">
+                    <div class="bible-nav">
+                        <select id="bookSelect" class="select-book"><option>Sélectionnez un livre...</option></select>
+                        <select id="chapterSelect" class="select-chapter"><option>Chapitre...</option></select>
+                    </div>
+                    <div id="bibleContent" class="bible-content">
+                        <p>Sélectionnez un livre et un chapitre pour commencer votre lecture.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mon Apps Bible. Créé avec ❤️ pour la communauté chrétienne.</p>
+            <p>"La Parole de Dieu est vivante et efficace" - Hébreux 4:12</p>
+            <p><strong>66 Livres | Versets Quotidiens | Prières | Sujets Bibliques</strong></p>
+        </div>
+    </footer>
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>
